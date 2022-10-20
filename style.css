@@ -1,0 +1,58 @@
+body{
+    background-color: #232222;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.trackItem{
+    margin: 25px;
+    color: white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.trackItem:hover{
+    color: red;
+}
+.trackItem::selection{
+    color: red;
+}
+.currentAndtotalTime{
+    color: white;
+}
+.progress{
+    width: 500px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.currentProgressBar{
+    width: 0%;
+    height: 100%;
+    background-color: red;
+}
+.button{
+    margin: 30px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+.pauseBtn{
+    display: none;
+}
+.button:hover{
+    color: white;
+}
+.buttons{
+    display: flex;
+}
+
